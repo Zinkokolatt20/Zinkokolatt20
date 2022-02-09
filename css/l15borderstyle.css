@@ -1,0 +1,60 @@
+.bdstyle1{
+	border-style: solid;
+}
+.bdstyle2{
+	border-style: double;
+}
+.bdstyle3{
+	border-style: dotted;
+}
+.bdstyle4{
+	border-style: dashed;
+}
+.bdstyle5{
+	border-style: inset;
+}
+.bdstyle6{
+	border-style: outset;
+}
+
+.borderdesign{
+	width: 300px;
+	height: 300px;
+
+	background: yellow;
+	/*background-color: orange;*/
+
+	/*border-radius: 50px;*/
+
+	/*border-radius: 100%;*/
+	/*border-radius: 50%;*/
+
+				/*leftup rightup rightdown leftdown*/
+	border-radius: 50px 20px 50px 100px;
+
+			/*s s c* , stoke style color*/
+	border: 2px dashed red;
+	/*border: 2px dashed #1d5cc2;*/
+	/*border: 2px dashed rgba(21, 229, 127, 1.0);*/
+}
+
+/*ul = whole border*/
+li{
+	/*list-style-type: circle;*/
+	/*list-style-type: square;*/
+	/*list-style-type: decimal;*/
+	list-style-type: decimal-leading-zero;
+
+	/*list-style-type: none;*/
+	/*list-style: none;*/
+
+	/*border: 1px solid orange;*/
+
+	border: 1px;
+	border-style: solid;
+	border-colour: orange;
+
+	/*list-style-position: inside;*/
+	list-style-position: outside;
+
+}
